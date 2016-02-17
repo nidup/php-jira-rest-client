@@ -259,4 +259,6 @@ class IssueField implements \JsonSerializable
     /** @var object */
     public $timeoriginalestimate;
 
+    /** @var float Story Points*/
+    public $customfield_10004;
 }
